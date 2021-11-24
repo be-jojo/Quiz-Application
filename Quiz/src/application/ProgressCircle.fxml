@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProgressCircleController">
+   <userData><fx:reference source="controller"></fx:reference></userData>
+   <children>
+      <Circle fx:id="circle" fill="#bac9e0" radius="20.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="label" alignment="CENTER" layoutX="12.0" layoutY="10.0" text="20" />
+   </children>
+</AnchorPane>
